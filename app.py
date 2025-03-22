@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load the trained model
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+with open("model.pkl", "rb") as f:
+    model = pickle.load(f)
 
 # Function to predict heart disease
 def predict_heart_disease(data):
